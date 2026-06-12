@@ -6,7 +6,7 @@ const Schema = mongoose.Schema;
 const ArtistSchema = new Schema({
 	name: String,
 	age: Number,
-	yearActive: Number,
+	yearsActive: Number,
 	image: String,
 	genre: String,
 	website: String,
